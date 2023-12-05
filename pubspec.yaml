@@ -1,0 +1,35 @@
+name: paris_mobile
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^5.8.0
+  flutter_launcher_icons: ^0.13.1
+  get: 4.6.6
+  permission_handler: ^11.1.0
+  url_launcher: ^6.2.1
+  webview_flutter: 4.0.5
+  webview_flutter_android: 3.3.1
+  webview_flutter_platform_interface: 2.0.2
+  webview_flutter_wkwebview: 3.1.1
+  webviewx_plus: 0.3.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
